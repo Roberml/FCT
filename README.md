@@ -177,7 +177,14 @@ Es importante saber tambien utilizar objetos dto (data transfer object) los cual
  Hasta ahora hemos estado utilizando postman para hacer peticiones a nuestra api, pero esto en otros casos nos daria fallo ya que no estamos implementando el CORS que no es más que una politica de seguridad que nos permite indicar quien puede acceder a nuestros recursos.
  
  
- La configuracion de CORS en Spring viene dada por las anotaciones @CrossOrigin (que hay que ponersela a un metodo en un controlador) la cual nos permite a traves de metodos saber la lista de origenes, lista de metodos http soportados y duracion máxima en segundos en caché
+ La configuracion de CORS en Spring viene dada por las anotaciones @CrossOrigin (que hay que ponersela a un metodo en un controlador) la cual nos permite a traves de metodos saber la lista de origenes, lista de metodos http soportados y duracion máxima en segundos en caché entre otras.
+ 
+ Si queremos documentar nuestra APIRest utilizaremos swagger.
+ 
+ 
+ 
+ 
+ 
   
   
   
