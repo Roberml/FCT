@@ -221,6 +221,64 @@ Es importante saber tambien utilizar objetos dto (data transfer object) los cual
  
  
  
+ 
+ CURSO DE SEGURIDAD EN APIREST
+ 
+ En este curso aprenderemos a como implementar seguridad de diferentes maneras adecuadamente a través de Spring security
+ 
+ 
+ 
+ 
+ Spring security es una dependencia la cual implementa la seguridad en nuestra API, basicamente nos permite responde a estas dos cuestiones: ¿Quien eres? y ¿Para qué tienes permisos?
+ 
+ 
+ 
+ 
+ Esto nos permite hacer una gestión de usuarios básica en nuestro programa, pero hay diferentes formas de Seguridad, nosotros veremos la básica, con JWT, y con OAUTh2
+ 
+ 
+ La seguridad básica consiste en que el usuario solicita un recurso protegido al servidor, este le pide que se logee, nosotros nos logeamos con la contraseña encriptada y el servidor nos devuelve el recurso protegido.
+ 
+ 
+ 
+ 
+ 
+ La seguridad JWT consiste en una seguridad a partir de tokens, el usuario se logea, el servidor le proporciona un token el cual el usuario firma, el servidor comprueba la firma del token y se obtiene el recurso.
+ 
+ Spring de forma nativa nos permite usar JWT
+ 
+ 
+ 
+ 
+ La seguridad Oauth2 es un estandar abierto para la autorizacion de APis. Implementa diferentes flujos de autentificacion, y es el usado por grandes empresas como facebook twitter y GitHub, una característica de esta seguridad es que nos permite logearnos en programas que también tengan esta seguridad (podemos logearnos a facebook usando nuestra cuenta de Twitter).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ FIN
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
   
   
   
