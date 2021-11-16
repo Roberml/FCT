@@ -162,6 +162,22 @@ CURSO DE SPRING BOOT Y SPRING MVC
   También utilizaremos la dependencia lombok la cual nos facilita el uso de clases ya que nos ahorra crear todos los setters y getters, constructores y metodos que hay que sobreescribir.
   
   Tambien vamos a utilizar la clas HttpMessageConverter para elegir cómo queremos que se nos devuelva la información (por ejemplo en json).
+ 
+Es importante saber tambien utilizar objetos dto (data transfer object) los cuales son clases POJO que tienen propiedades de las entidades en la capa negocio (puede tener solo proiedades de una entidad tambien) esto nos permite aligerar transacciones.
+ 
+ 
+ 
+ Tambien saber utilizar excepciones personalizadas, pongamos el ejemplo que en cierta ruta podemos encontrar a un producto por su id, si ese producto no existe podemos crear la excepcion noProductoFoundException() la cual tiene que extender de RunTimeException.
+ 
+ 
+ 
+ Podemos tambien ponerle la anotacion @ResponseStatus a un metodo para que responda a un error en concreto (como error 404).
+ 
+ 
+ Hasta ahora hemos estado utilizando postman para hacer peticiones a nuestra api, pero esto en otros casos nos daria fallo ya que no estamos implementando el CORS que no es más que una politica de seguridad que nos permite indicar quien puede acceder a nuestros recursos.
+ 
+ 
+ La configuracion de CORS en Spring viene dada por las anotaciones @CrossOrigin (que hay que ponersela a un metodo en un controlador) la cual nos permite a traves de metodos saber la lista de origenes, lista de metodos http soportados y duracion máxima en segundos en caché
   
   
   
