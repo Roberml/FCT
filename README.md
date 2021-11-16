@@ -184,6 +184,42 @@ Es importante saber tambien utilizar objetos dto (data transfer object) los cual
  
  
  
+ CURSO DE ELEMENTOS AVANZADOS EN APIREST
+ 
+ 
+ aprenderemos a manejar el patron dto en peticiones y respuestas conocer HATEOAS que es un patrón, implementar una api con spring data rest entre otras cosas
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Hasta ahora no hemos controlado el numero de elementos que nos aparecen en consulta. Pero en proyectos muy grandes donde haya que cargar mucha informacion es recomendable el uso de paginación, la  cual no es más que limitar el numero de elementos que aparecen por busqueda.(Pone un ejemplo muy bueno que es la TimeLine de twitter, no tiene sentido que te cargue todos los twits desde que te creaste una cuenta).
+ 
+ 
+ Para utilizar los ya mencionados DTO crearemos una clase con la anotación @Builder gracias a lombok, esto nos permite construir nuestro objeto paso a paso setteando cada uno de los atributos que necesite.
+ 
+ 
+ 
+ 
+ HEATEOAS Y HAL 
+ 
+ 
+ HATEOAS basicamente nos permite que la información devuelta por el servidor incluya hipervinculos.
+ 
+ 
+ El HAL es el standar para definir hipermedia como enlaces a recursos externos dentro del codigo json o xml.
+ 
+ 
+ 
+ Hasta ahora hemos estado utilizando una base de datos en memoria la cual nos es util para testear nuestra aplicación, pero nuestra aplicacion Rest necesita implementar un sistema gestor base de datos real como postgreSQL para ello necesitaremos de un docker.
+ 
+ 
+ 
+ 
+ 
  
   
   
