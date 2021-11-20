@@ -39,13 +39,13 @@ En este primer curso nos hace una introducción a Spring el cual es un framework
 
 
 
-La inyección de dependencias es un patrón de diseño orientado a objetos, en la cual los objetos se suministran a una clase en vez de que la clase cree dichos objetos. Estos objetos son llamados Beans los cuales son instanciados por el contenedor de Spring y se usarán cuando sean llamados, serán controlados por nuestro contenedor de inversión de control.
+La **inyección de dependencias** es un patrón de diseño orientado a objetos, en la cual los objetos se suministran a una clase en vez de que la clase cree dichos objetos. Estos objetos son llamados **Beans** los cuales son instanciados por el contenedor de Spring y se usarán cuando sean llamados, serán controlados por nuestro contenedor de inversión de control.
 
 Para configurar y ensamblar estos beans podemos utilizar 3 cosas: un fichero xml, anotaciones o clases Java.
 
 A la hora de definir un bean debemos prorcionarle un ID obligatorio y nombre completo de la clase. Para obtenerlo usamos la función appContext.getBean().
 
-(Nota: esta función tiene distintas sobrecargas: podriamos poner de parámetros solo el id pero en tal caso hay que hacer un casting, otra donde le proporcionamos id y clase y otra donde sólo la clase la cual es la pero de todas, porque si hay dos beans en la misma clase salta excepción).
+(Nota: esta función tiene distintas sobrecargas: podriamos poner de parámetros solo el id pero en tal caso hay que hacer un casting, otra donde le proporcionamos id y clase y otra donde sólo la clase la cual es la pero de todas, porque si hay dos beans en la misma clase salta excepción).[^1]
 
 Si queremos autoinyectar un bean, usamos la anotación Autowired, la cual puede tener diferentes tipos:
 no: sin autocableado
