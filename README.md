@@ -33,7 +33,7 @@ no era posible instalarlo sin que diese fallos teniendo la actual. La otra opci�
 
 
 
-CURSO SPRING CORE
+#CURSO SPRING CORE#
  
 En este primer curso nos hace una introducción a Spring el cual es un framework para el desarrollo de aplicaciones (especialmente empresariales) y un contenedor de inversiones para Java. El IDE utilizado para este curso va a ser Spring Tool Suite, el cual es un plugin de Eclipse que viene incorporado con varias cosas para ayudarnos a crear nuestras aplicaciones. También nos enseña brevemente lo que es un patrón de diseño, pero esto se verá más a fondo más adelante.
 
@@ -72,7 +72,7 @@ Por último realizamos el proyecto de MovieAdvisor, la cual es una aplicación d
  
   
   
-CURSO DE SPRING BOOT Y SPRING MVC
+#CURSO DE SPRING BOOT Y SPRING MVC#
   
   En este curso aprenderemos sobre el patrón de diseño modelo-vista-controlador, acceder a datos utilizando Spring Data JPA, saber las ventajas del uso de Spring boot y darle una seguridad a nuestra API.
   
@@ -143,7 +143,7 @@ CURSO DE SPRING BOOT Y SPRING MVC
   
   
   
- CURSO DE DESARROLLO DE UNA API REST CON SPRING BOOT
+ #CURSO DE DESARROLLO DE UNA API REST CON SPRING BOOT#
   
   
   en este curso aprenderemos sobre arquitectura rest, usar la librera lombok y saber la estructura de un controlador Rest.
@@ -184,7 +184,7 @@ Es importante saber tambien utilizar objetos dto (data transfer object) los cual
  
  
  
- CURSO DE ELEMENTOS AVANZADOS EN APIREST
+ #CURSO DE ELEMENTOS AVANZADOS EN APIREST#
  
  
  aprenderemos a manejar el patron dto en peticiones y respuestas conocer HATEOAS que es un patrón, implementar una api con spring data rest entre otras cosas
@@ -222,7 +222,7 @@ Es importante saber tambien utilizar objetos dto (data transfer object) los cual
  
  
  
- CURSO DE SEGURIDAD EN APIREST
+ #CURSO DE SEGURIDAD EN APIREST#
  
  En este curso aprenderemos a como implementar seguridad de diferentes maneras adecuadamente a través de Spring security
  
@@ -259,7 +259,7 @@ Es importante saber tambien utilizar objetos dto (data transfer object) los cual
  
  
  
- FIN
+ #FIN#
  
  
  
